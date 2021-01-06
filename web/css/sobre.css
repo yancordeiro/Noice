@@ -1,25 +1,47 @@
 .interna_sobre {
-	background: url("../img/bg-sobre.jpg") no-repeat center;
-	background-size: cover;
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna_sobre {
+  width: 100%;
+  margin-top: 100px;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+  padding-top: 55px;
+}
+
+.interna_sobre h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.interna_sobre h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
 }
 
 .missao_sobre {
-	padding-top: 60px;
+  padding: 60px 0;
 }
 
 .missao_sobre p {
-	font-size: 18px;
-	line-height: 25px;
-	margin-bottom: 1em;
-	padding-right: 60px
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding-right: 60px;
+  color: #8b7c42;
 }
 
 .missao_sobre ul li {
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 18px;
-	line-height: 30px;
-}
-
-.foto-equipe {
-	padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8b7c42;
 }

@@ -1,14 +1,10 @@
 if (window.SimpleSlide) {
 
 	new SimpleSlide({
-		slide: "quote", // nome do atributo data-slide="principal"
-		time: 5000 // tempo de transição dos slides
-	});
-
-	new SimpleSlide({
 		slide: "portfolio",
-		time: 5000,
-		nav: true
+		nav: true,
+		auto: false, // se o slide deve passar automaticamente
+		time: 10000, // tempo de transição dos slides
 	});
 
 }

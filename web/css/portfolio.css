@@ -1,29 +1,37 @@
 .interna_portfolio {
-	background: url("../img/bg-portfolio.jpg") no-repeat center;
+	background: url("../img/portfolio_bg.jpg") no-repeat center;
 	background-size: cover;
 }
 
-.quote_clientes {
-	padding: 60px 0;
-	max-width: 460px;
-	margin: 0 auto;
-}
 
-.quote_clientes p{
+.interna_portfolio {
+	width: 100%;
+	margin-top: 100px;
+	height: 160px;
 	text-align: center;
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 18px;
-	line-height: 25px;
-	font-style: italic;
-	margin-bottom: 20px;
+	color: #fff;
+	padding-top: 55px;
 }
 
-.quote_clientes cite {
-	font-size: 18px;
-	font-weight: bold;
-	float: right;
-	font-style: normal;
+.interna_portfolio h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
 }
+
+.interna_portfolio h1:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px auto 10px auto;
+}
+
+.portfolio_lista li:last-child {
+	margin-top: 20px;
+}
+
 
 /*Plugin de Slide*/
 
@@ -80,6 +88,6 @@
 }
 
 .rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
-	background: #fec63e;
-	color: #fec63e;
+	background: #8b7c42;
+	color: #8b7c42;
 }
